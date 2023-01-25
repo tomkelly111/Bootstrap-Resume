@@ -115,3 +115,77 @@ header {
     background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
+
+
+/*-----Special margine/padding/text-----*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+.general-sub {
+    font-family: "EXO", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+/*-----footer-----*/
+
+#footer-details {
+    padding: 20px;
+}
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+}
