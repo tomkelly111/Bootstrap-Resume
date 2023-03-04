@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
+div#map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+  }
 /*-----colors-----*/
 .bg-color-name-title{
     background-color: #676767;
